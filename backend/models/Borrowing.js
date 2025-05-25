@@ -1,3 +1,4 @@
+const mongoose = require("mongoose");
 const borrowingSchema = new mongoose.Schema({
   userId: mongoose.Schema.Types.ObjectId,
   bookId: mongoose.Schema.Types.ObjectId,
